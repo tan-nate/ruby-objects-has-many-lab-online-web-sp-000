@@ -20,6 +20,6 @@ class Post
     else
       self.author.name
     end
-    binding.pry
+    #binding.pry
   end
 end
