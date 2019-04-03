@@ -20,4 +20,8 @@ class Author
     @posts << post
     @@posts << post
   end
+  
+  def post_count
+    @@posts.length
+  end
 end
